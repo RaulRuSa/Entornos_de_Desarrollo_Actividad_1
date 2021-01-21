@@ -27,11 +27,6 @@ public class Cociente {
 	 * <ul>
 	 * <li>Si el divisor tiene valor 0 se mostrará el mensaje "El divisor no puede
 	 * tomar el valor 0"</li>
-	 * <li>Si la división no es exacta podemos consultar el resto con el operador
-	 * modulo</li>
-	 * <ul>
-	 * <li>Ejemplo: resto=num1%num2</li>
-	 * </ul>
 	 * </ul>
 	 * 
 	 * @param num1 es el dividendo de la división
@@ -45,7 +40,7 @@ public class Cociente {
 	}
 
 	/**
-	 * Realiza la división de dos números enteros</br>
+	 * Realiza la división de dos números enteros devolviendo un número entero</br>
 	 * Casos especiales:</br>
 	 * <ul>
 	 * <li>Si el divisor tiene valor 0 se mostrará el mensaje "El divisor no puede
@@ -81,8 +76,9 @@ public class Cociente {
 
 		return (1 / num);
 	}
+
 	/**
-	 * Calcula la raíz cuadrada de un  número entero</br>
+	 * Calcula la raíz cuadrada de un número entero</br>
 	 * Casos especiales:</br>
 	 * <ul>
 	 * <li></li>
